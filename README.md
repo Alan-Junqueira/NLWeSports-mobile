@@ -20,3 +20,7 @@ Com o backend já funcionando, basta abrir o terminal do app mobile, pegar o lin
 substituir as rotas do axios e executar a aplicação, digitando no terminal:
 expo start
 
+
+
+https://user-images.githubusercontent.com/104371202/190827844-86b91540-2162-4500-a58b-080155991c48.mp4
+
