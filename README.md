@@ -1,13 +1,13 @@
 https://user-images.githubusercontent.com/104371202/190827844-86b91540-2162-4500-a58b-080155991c48.mp4
 
 # Stack and tools
-Node.js
-Prisma
-React
-React Native
-Expo
-Figma
-Radix UI
+- Node.js
+- Prisma
+- React
+- React Native
+- Expo
+- Figma
+- Radix UI
 
 # Deploys
 
