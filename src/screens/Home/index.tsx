@@ -22,9 +22,7 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch(
-      'https://f7cd-2804-1b3-3180-2ed9-6806-cfcf-2f6e-b4ff.sa.ngrok.io/games'
-    )
+    fetch('https://nlw-esports-api.herokuapp.com/games')
       .then((response) => response.json())
       .then((data) => setGames(data));
   }, []);

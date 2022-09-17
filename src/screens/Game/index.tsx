@@ -31,7 +31,7 @@ export function Game() {
 
   async function getDiscordUser(adsId: string) {
     fetch(
-      `https://f7cd-2804-1b3-3180-2ed9-6806-cfcf-2f6e-b4ff.sa.ngrok.io/ads/${adsId}/discord`
+      `https://nlw-esports-api.herokuapp.com/ads/${adsId}/discord`
     )
       .then((response) => response.json())
       .then((data) => setDiscordDuoSelected(data.discord));
@@ -39,7 +39,7 @@ export function Game() {
 
   useEffect(() => {
     fetch(
-      `https://f7cd-2804-1b3-3180-2ed9-6806-cfcf-2f6e-b4ff.sa.ngrok.io/games/${game.id}/ads`
+      `https://nlw-esports-api.herokuapp.com/games/${game.id}/ads`
     )
       .then((response) => response.json())
       .then((data) => setDuos(data));
